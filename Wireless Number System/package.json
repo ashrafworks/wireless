@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "build-copyable-modal": "cd nova-components/CopyableModal && npm run dev",
+        "build-copyable-modal-prod": "cd nova-components/CopyableModal && npm run prod"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "tailwindcss": "^4.0.0",
+        "vite": "^6.0.11"
+    }
+}
