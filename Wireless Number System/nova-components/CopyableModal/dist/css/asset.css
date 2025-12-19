@@ -1,2 +1,5 @@
 /* Nova Asset CSS */
 
+a[href="https://nova.laravel.com/licenses"] {
+    display: none !important;
+}
